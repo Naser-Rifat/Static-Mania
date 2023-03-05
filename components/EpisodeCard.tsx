@@ -1,7 +1,21 @@
 const EpisodeCard = () => {
   return (
-    <div className="absolute top-[803px] left-[80px] w-full h-[632px]">
-      <div className="absolute h-[72.78%] w-full top-[27.22%] right-[0%] bottom-[0%] left-[0%]">
+    <div className=" w-full block">
+      <div className=" w-full  text-white  flex  justify-between">
+        <div className=" h-full w-[29.06%]  text-black">
+          <b className=" text-3xl leading-[120%]">Recent Episodes</b>
+
+          <div className=" h-3/6 w-[99.73%]  leading-[150%] inline-block bloc">
+            Apparently we had reached a great height in the atmosphere, for the
+            sky was a dead black.
+          </div>
+        </div>
+        <div className=" h-[44.44%]  bg-blue flex flex-row py-3 px-8 box-border items-start justify-start ">
+          <div className=" leading-[24px] font-medium">See All Episiodes</div>
+        </div>
+      </div>
+      {/* ---------------------- */}
+      {/* <div className="absolute h-[72.78%] w-full top-[27.22%] right-[0%] bottom-[0%] left-[0%]">
         <div className="absolute h-full w-[32.5%] top-[0%] right-[0%] bottom-[0%] left-[67.5%]">
           <div className="absolute h-[37.39%] w-full top-[62.61%] right-[0%] bottom-[0%] left-[0%]">
             <div className="absolute w-[90.27%] top-[44.19%] left-[0%] leading-[150%] inline-block">
@@ -119,23 +133,7 @@ const EpisodeCard = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="absolute h-[17.09%] w-full top-[0%] right-[0%] bottom-[82.91%] left-[0%] text-white">
-        <div className="absolute h-[44.44%] w-[15.23%] top-[55.56%] right-[0%] bottom-[0%] left-[84.77%] bg-blue flex flex-row py-3 px-8 box-border items-start justify-start">
-          <div className="relative leading-[24px] font-medium">
-            See All Episiodes
-          </div>
-        </div>
-        <div className="absolute h-full w-[29.06%] top-[0%] right-[70.94%] bottom-[0%] left-[0%] text-black">
-          <div className="absolute h-3/6 w-[99.73%] top-[50%] left-[0.27%] leading-[150%] inline-block">
-            Apparently we had reached a great height in the atmosphere, for the
-            sky was a dead black.
-          </div>
-          <b className="absolute top-[0%] left-[0%] text-3xl leading-[120%]">
-            Recent Episodes
-          </b>
-        </div>
-      </div>
+      </div> */}
     </div>
   );
 };

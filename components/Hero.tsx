@@ -1,19 +1,19 @@
 const Hero = () => {
   return (
-    <div className="w-[80%] mx-auto my-32  text-grey   md:block flex item-center ">
+    <div className="w-[80%] mx-auto my-32  text-grey   md:block flex item-center gap-20">
       {/* Left */}
       <div className="  w-full h-[302px] block">
-        <div className="  w-full h-[222px] text-black ">
+        <div className="  w-full h-[222px] text-black block">
           <b className=" text-4xl leading-[110%] lg:inline-block ">
             Become The Hero Of Your Own
           </b>
-          <div className=" leading-[28px] block w-[80%]">
+          <div className=" leading-[28px] inline-block ">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
             erat.
           </div>
         </div>
-        <div className="h-12 flex">
+        <div className="h-12 flex ">
           <input
             placeholder=" Enter Your Email Id"
             className="w-72 p-2 leading-[24px] opacity-[0.87] border-none focus:outline-1"

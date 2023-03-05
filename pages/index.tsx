@@ -8,10 +8,11 @@ import EpisodeCard from "../components/EpisodeCard";
 
 const Home: NextPage = () => {
   return (
-    <div className=" bg-white w-full  text-left text-base text-black font-see-more overflow-x-hidden">
+    <div className="w-[95%] bg-white mx-auto  text-left text-base text-black font-see-more overflow-x-hidden">
       <Navbar />
       <Hero />
       <Client />
+      <EpisodeCard />
 
       {/* ------------Footer section------------------ */}
       {/* <Footer /> */}
@@ -78,7 +79,6 @@ const Home: NextPage = () => {
           </b>
         </div>
       </div> */}
-      <EpisodeCard />
     </div>
   );
 };

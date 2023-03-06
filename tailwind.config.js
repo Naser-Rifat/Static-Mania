@@ -1,8 +1,10 @@
+/* It's a comment that tells the compiler what type of file it is. */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
@@ -25,7 +27,7 @@ module.exports = {
       "3xl": "32px",
       "4xl": "48px",
     },
-    screens: { md: { max: "960px" } },
+    // screens: { md: { max: "960px" } },
   },
   corePlugins: { preflight: false },
 };

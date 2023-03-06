@@ -1,17 +1,15 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <div
-      className="  bg-white flex flex-row py-[18px] px-[83px] items-center justify-between
-     md:flex-col md:gap-[100px]"
+      className=" px-10 bg-white flex flex-row py-[18px]  items-center justify-between
+     "
     >
-      <img
-        className="relative w-[130px] h-[26.33px] shrink-0 overflow-hidden"
-        alt=""
-        src="../logo.svg"
-      />
-      <div className="relative w-[46px] h-7 shrink-0">
-        <div className="absolute top-[0%] left-[0%] leading-[28px]">{`About `}</div>
-      </div>
+      <img className="relative   overflow-hidden" alt="" src="../logo.svg" />
+      <Link href="/about">
+        <div className=" cursor-pointer hover:text-blue-500">{`About `}</div>
+      </Link>
     </div>
   );
 };
